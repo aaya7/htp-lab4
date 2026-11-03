@@ -10,4 +10,4 @@ jobs:
      - name: Run my own container action
        uses: ./
        with:
-         who-to-greet: '@wulfland'
+         who-to-greet: '@yaya'
