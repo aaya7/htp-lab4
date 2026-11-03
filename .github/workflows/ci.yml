@@ -1,7 +1,5 @@
 name: Action CI
-
 on: [push]
-
 jobs:
   ci:
     runs-on: ubuntu-latest
@@ -10,4 +8,4 @@ jobs:
      - name: Run my own container action
        uses: ./
        with:
-         who-to-greet: 'yaya'
+         who-to-greet: 'Yaya'
